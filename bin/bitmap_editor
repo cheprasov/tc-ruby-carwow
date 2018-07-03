@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require './lib/bitmap_editor'
+
+file = ARGV.first;
+if file.nil? || !File.exists?(file)
+  return puts 'Please provide correct file'
+end
+
+BitmapEditor.new.run(File.open(file));
