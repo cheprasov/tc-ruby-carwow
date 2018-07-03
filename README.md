@@ -19,8 +19,8 @@ It was my first experience with Ruby, and really the language looks very cool fo
 
 ## Running
 
-`>bin/bitmap_editor examples/show.txt`
+`> bin/bitmap_editor examples/show.txt`
 
 ### Running tests
 
-`bundle exec rspec`
+`> bundle exec rspec`
